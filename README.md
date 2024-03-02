@@ -1,10 +1,5 @@
-# Real-Time Object Recognition using Advanced Image Processing Algorithms
+# HelmetDetect
 
-## Overview
-This project aims to develop a real-time object recognition system using advanced digital image processing algorithms. The system captures video frames, preprocesses images, and applies algorithms for object detection and recognition. It is implemented using OpenCV and Python, providing a flexible and efficient solution for various applications such as surveillance, robotics, and augmented reality.
+## Real-Time Helmet Detection using Advanced Image Processing Algorithms
 
-## Features
-- Real-time capture and processing of video frames.
-- Integration of advanced image processing algorithms for object detection and recognition.
-- Scalable architecture allowing for future enhancements and customization.
-
+The objective of this project is to develop a motorcycle helmet detection system using deep learning techniques. The system aims to accurately detect motorcyclists wearing helmets in images, contributing to road safety initiatives and accident prevention efforts.
