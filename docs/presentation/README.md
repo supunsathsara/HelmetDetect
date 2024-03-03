@@ -37,11 +37,6 @@
 - Introduce evaluation metrics for assessing the performance of the helmet detection model.
 - Explain metrics such as precision, recall, and F1 score and their significance in model evaluation.
 - Provide examples of how these metrics are calculated and interpreted.
-- Project Roadmap:
-Outline the timeline and milestones for implementing the helmet detection project.
-- Discuss the different phases of the project, including data collection, model development, training, evaluation, and deployment.
-- Mention any dependencies, risks, or constraints that may impact the project timeline.
-
 
 ### Future Enhancements
 - Explore the potential for real-time helmet detection systems integrated into smart helmets or motorcycle dashboards.
