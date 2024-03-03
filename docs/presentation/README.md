@@ -2,8 +2,15 @@
 ## Helmet Detect Presentation Notes
 
 ### Introduction
+- Emphasize the importance of motorcycle helmet detection for road safety.
+- Highlight statistics or facts regarding the effectiveness of helmet usage in preventing injuries.
+- Introduce the objective of the presentation and the significance of the project.
 
 ### Problem Statement
+- Define the challenge of detecting helmets in images accurately.
+- Discuss the potential consequences of inaccurate helmet detection, such as increased risk of accidents and injuries.
+- Highlight the need for reliable helmet detection systems to enhance road safety.
+
 
 ### Collecting and Prepping Image Datasets
 - Explain the process of collecting and preparing image datasets for training the helmet detection model.
