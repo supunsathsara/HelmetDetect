@@ -12,10 +12,10 @@
    cd HelmetDetect
    ```
 
-3.Switch to the web branch where the web code resides:
+3. Switch to the web branch where the web code resides:
     ```bash
-    git checkout web
-    ```
+   git checkout web
+   ```
 
 4. Install dependencies:
    ```bash
