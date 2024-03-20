@@ -1,16 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Helmet detection</title>
   <!-- Bootstrap CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+  <style>
+    /*add pulse animation to heart */
+  
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+  
+      50% {
+        transform: scale(1.1);
+      }
+  
+      100% {
+        transform: scale(1);
+      }
+    }
+  
+    body {
+      background: rgb(249, 255, 162);
+    }
+
+    .header {
+      font-family: "Crafty Girls", cursive;
+      font-weight: 900;
+      /*track wide*/
+      letter-spacing: 0.1em;
+    }
+
+    .subhead {
+      font-family: "Sue Ellen Francisco", cursive;
+    }
+  
+    .footer {
+      background: rgb(244, 255, 96);
+    }
+  
+    .heart-emoji {
+      font-size: 1.3rem;
+      color: red;
+      animation: pulse 1s infinite;
+    }
+  
+    .footer-text {
+      font-size: 1.0rem;
+    }
+  </style>
 </head>
+
 <body>
   <div class="container">
     <div class="text-center mt-5">
-      <h1 class="font-weight-bold">HELMET DETECTION WITH YOLOV5</h1>
+      <h1 class="header">Helmet Detect</h1>
+      <h2 class=" subhead">HELMET DETECTION WITH YOLOV5</h2>
     </div>
     <div class="text-center mt-5">
       <button class="btn btn-success" id="uploadButton" type="button">
@@ -35,8 +87,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <footer class="fixed-bottom text-center py-3 bg-dark text-white">
-    <div>Made with ❤️ by GAHDSE23.1F</div>
+  <footer class="fixed-bottom text-center py-3 footer text-dark">
+    <div class="footer-text">Made with <span class="heart-emoji">❤️</span> by GAHDSE23.1F</div>
   </footer>
 
   <script>
@@ -53,4 +105,5 @@
     });
   </script>
 </body>
+
 </html>
