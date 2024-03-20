@@ -16,7 +16,7 @@ To facilitate easy access and collaboration, we utilized Google Colab for model 
 ## Demo
 
 ### Video Demo
-A demonstration of the application in action is available via this [video link](https://www.youtube.com/).
+A demonstration of the application in action is available via this [video link](https://www.youtube.com/watch?v=xVo9erXTSBQ).
 
 ### Web Demo
 We have deployed a web version of the application for user-friendly access. The source code for the web version is available in the [web branch](https://github.com/supunsathsara/HelmetDetect/tree/web).
