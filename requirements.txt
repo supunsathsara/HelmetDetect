@@ -5,6 +5,7 @@ torchvision
 numpy
 opencv-python
 opencv-python-headless
+python3-opencv
 flask
 flask-cors
 gunicorn
